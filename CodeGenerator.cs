@@ -16,7 +16,6 @@ namespace MikoVm
         const int STATE_PRINT       = 0x0008;     // print文
         const int STATE_BEFORE_END  = 0x0010;     // 文終端（；）の前
 
-
         /**
          * バイトコードを生成
          */

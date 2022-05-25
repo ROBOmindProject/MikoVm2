@@ -15,7 +15,7 @@ namespace MikoVm
             opcSUB,             // スタックから２つの値をポップして差を計算、結果をスタックにPush：　オペランドなし
             opcMUL,             // スタックから２つの値をポップして積を計算、結果をスタックにPush：　オペランドなし
             opcDIV,             // スタックから２つの値をポップして除算、結果をスタックにPush：　オペランドなし
-            opcPRINT            // スタックから値を１つPopしてコンソールに出力する：　オペランドなし
+            opcPRINT            // 指定した変数の内容をコンソールに出力する：　オペランド(1)=>変数ID
         }
 
         public EnumOpecode Opecode { get; }

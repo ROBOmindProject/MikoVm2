@@ -105,7 +105,7 @@ namespace MikoVm
                         }
                         break;
 
-                    case Bytecode.EnumOpecode.opcPRINT:           // スタックから値を１つPopしてコンソールに出力する：　オペランドなし
+                    case Bytecode.EnumOpecode.opcPRINT:           // 指定した変数の内容をコンソールに出力する：　オペランド(1)=>変数ID
                         {
                             int data = var_tbl[bc.Operands[0]];
                             Console.WriteLine(data);
